@@ -1,0 +1,55 @@
+{
+  "booking_date": "2026-11-22",
+  "booking_time": "17:00",
+  "party_size": 2,
+  "status": "closed",
+  "restaurant_name": null,
+  "guest_name": null,
+  "agreed_time": null,
+  "pending_operator_question": null,
+  "pending_time": null,
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Good afternoon, I am an AI assistant booking on behalf of my client. May I enquire whether a table for two at 17:00 today would be available?",
+      "at": "2026-11-22 15:14:37",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "Afraid 17:00 is gone, would 19:00 work?",
+      "at": "2026-11-22 15:14:37",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Let me just check that with my client and get back to you shortly.",
+      "at": "2026-11-22 15:14:47",
+      "voice": false
+    },
+    {
+      "role": "operator",
+      "text": "ні, тільки 17:00",
+      "at": "2026-11-22 15:14:47",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Thank you for your suggestion. My client can only attend at 17:00; would that still be possible?",
+      "at": "2026-11-22 15:14:51",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "Then I'm sorry, we can't help today.",
+      "at": "2026-11-22 15:14:51",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "I’m sorry we couldn’t arrange a table today. Thank you for your time. Have a good day.",
+      "at": "2026-11-22 15:15:01",
+      "voice": false
+    }
+  ]
+}

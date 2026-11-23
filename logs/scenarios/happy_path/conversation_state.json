@@ -1,0 +1,67 @@
+{
+  "booking_date": "2026-11-22",
+  "booking_time": "17:00",
+  "party_size": 2,
+  "status": "closed",
+  "restaurant_name": "The Golden Lion",
+  "guest_name": "Sasha",
+  "agreed_time": null,
+  "pending_operator_question": null,
+  "pending_time": null,
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Good afternoon, I am an AI assistant booking on behalf of my client. Would a table for two at 17:00 today be available?",
+      "at": "2026-11-22 15:13:16",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "Good afternoon! Yes, 5pm for two is fine. What name shall I put it under?",
+      "at": "2026-11-22 15:13:16",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Let me just check that and come back to you in a moment.",
+      "at": "2026-11-22 15:13:17",
+      "voice": false
+    },
+    {
+      "role": "operator",
+      "text": "Sasha",
+      "at": "2026-11-22 15:13:17",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Thank you, I've noted the name Sasha. Could you please let me know the restaurant name?",
+      "at": "2026-11-22 15:13:19",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "Lovely, that's booked for Sasha at The Golden Lion, 5pm today, table for two.",
+      "at": "2026-11-22 15:13:19",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Wonderful, thank you ever so much. Just to confirm the booking: a table for two (2 people) at 17:00 (5 pm) today, Sunday, 22 November 2026, at The Golden Lion under the name Sasha. We look forward to it. Many thanks again!",
+      "at": "2026-11-22 15:13:20",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "See you later!",
+      "at": "2026-11-22 15:13:20",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Thank you, see you later. Have a wonderful day!",
+      "at": "2026-11-22 15:13:22",
+      "voice": false
+    }
+  ]
+}

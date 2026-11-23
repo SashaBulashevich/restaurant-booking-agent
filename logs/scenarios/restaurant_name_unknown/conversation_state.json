@@ -1,0 +1,55 @@
+{
+  "booking_date": "2026-11-22",
+  "booking_time": "17:00",
+  "party_size": 2,
+  "status": "closed",
+  "restaurant_name": "Dishoom Covent Garden",
+  "guest_name": null,
+  "agreed_time": null,
+  "pending_operator_question": null,
+  "pending_time": null,
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Good afternoon, I am an AI assistant booking on behalf of my client. May I enquire whether a table for two at 17:00 today is available?",
+      "at": "2026-11-22 15:13:24",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "Hello. Yes, we have a table for two at 17:00, it's booked.",
+      "at": "2026-11-22 15:13:24",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Thank you. Could you please confirm the name of the restaurant for the booking?",
+      "at": "2026-11-22 15:13:25",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "It's Dishoom Covent Garden.",
+      "at": "2026-11-22 15:13:25",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Wonderful, thank you ever so much. Just to confirm the booking: a table for two (2 people) at 17:00 (5 pm) today, Sunday, 22 November 2026, at Dishoom Covent Garden. We look forward to it. Many thanks again!",
+      "at": "2026-11-22 15:13:33",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "Cheers, bye.",
+      "at": "2026-11-22 15:13:33",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Thank you ever so much, goodbye.",
+      "at": "2026-11-22 15:13:41",
+      "voice": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "booking_date": "2026-11-22",
+  "booking_time": "17:00",
+  "party_size": 2,
+  "status": "confirmed",
+  "restaurant_name": "The Ivy",
+  "guest_name": null,
+  "agreed_time": "18:30",
+  "pending_operator_question": null,
+  "pending_time": null,
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Good afternoon, I am an AI assistant booking on behalf of my client. May I ask if a table for two at 17:00 today is available?",
+      "at": "2026-11-22 15:13:52",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "Hi, sorry, 17:00 is fully booked. I could do 18:30 for two?",
+      "at": "2026-11-22 15:13:52",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Let me check that with my client and get back to you.",
+      "at": "2026-11-22 15:13:55",
+      "voice": false
+    },
+    {
+      "role": "operator",
+      "text": "так",
+      "at": "2026-11-22 15:13:55",
+      "voice": false
+    },
+    {
+      "role": "system",
+      "text": "Operator approved the new time 18:30.",
+      "at": "2026-11-22 15:13:55",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Thank you, 18:30 works for my client. Could you kindly let me know the name of the restaurant, please?",
+      "at": "2026-11-22 15:14:13",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "Great, 18:30 for two at The Ivy is confirmed.",
+      "at": "2026-11-22 15:14:13",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Wonderful, thank you ever so much. Just to confirm the booking: a table for two (2 people) at 18:30 (6:30 pm) today, Sunday, 22 November 2026, at The Ivy. We look forward to it. Many thanks again!",
+      "at": "2026-11-22 15:14:26",
+      "voice": false
+    }
+  ]
+}

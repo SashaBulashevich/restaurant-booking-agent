@@ -1,0 +1,55 @@
+{
+  "booking_date": "2026-11-22",
+  "booking_time": "17:00",
+  "party_size": 2,
+  "status": "confirmed",
+  "restaurant_name": "Rules restaurant",
+  "guest_name": null,
+  "agreed_time": null,
+  "pending_operator_question": null,
+  "pending_time": null,
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Good afternoon, I am an AI assistant booking on behalf of my client. Would it be possible to reserve a table for two at 17:00 today?",
+      "at": "2026-11-22 15:15:47",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "Yes we can seat you at 5. Any allergies or special requests?",
+      "at": "2026-11-22 15:15:47",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Let me just check that and get back to you.",
+      "at": "2026-11-22 15:15:51",
+      "voice": false
+    },
+    {
+      "role": "operator",
+      "text": "Немає",
+      "at": "2026-11-22 15:15:51",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Thank you, there are no allergies or special requests. Could you please let me know the name of the restaurant for the reservation?",
+      "at": "2026-11-22 15:16:04",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "Perfect, it's confirmed at Rules restaurant, 5pm today for 2.",
+      "at": "2026-11-22 15:16:04",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Wonderful, thank you ever so much. Just to confirm the booking: a table for two (2 people) at 17:00 (5 pm) today, Sunday, 22 November 2026, at Rules restaurant. We look forward to it. Many thanks again!",
+      "at": "2026-11-22 15:16:14",
+      "voice": false
+    }
+  ]
+}

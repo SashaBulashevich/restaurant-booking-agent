@@ -1,0 +1,67 @@
+{
+  "booking_date": "2026-11-22",
+  "booking_time": "17:00",
+  "party_size": 2,
+  "status": "confirmed",
+  "restaurant_name": "The Wolseley",
+  "guest_name": null,
+  "agreed_time": null,
+  "pending_operator_question": null,
+  "pending_time": null,
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Good afternoon, I am an AI assistant booking on behalf of my client. Would it be possible to secure a table for two at 17:00 today?",
+      "at": "2026-11-22 15:15:08",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "Hi! Are you a bot?",
+      "at": "2026-11-22 15:15:08",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Yes, I am an AI assistant booking on behalf of my client",
+      "at": "2026-11-22 15:15:17",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "OK. We need a £20 card deposit to hold the table. Can you send the card details?",
+      "at": "2026-11-22 15:15:17",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Let me just check that and come back to you in a moment.",
+      "at": "2026-11-22 15:15:25",
+      "voice": false
+    },
+    {
+      "role": "operator",
+      "text": "Не давай картку. Скажи, що заплатимо на місці або нехай надішлють посилання на оплату.",
+      "at": "2026-11-22 15:15:25",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Thank you, but we will settle the £20 deposit on the day; could you please send us a payment link instead?",
+      "at": "2026-11-22 15:15:32",
+      "voice": false
+    },
+    {
+      "role": "manager",
+      "text": "No problem, we can waive it. Booked: The Wolseley, 17:00, two people.",
+      "at": "2026-11-22 15:15:32",
+      "voice": false
+    },
+    {
+      "role": "agent",
+      "text": "Wonderful, thank you ever so much. Just to confirm the booking: a table for two (2 people) at 17:00 (5 pm) today, Sunday, 22 November 2026, at The Wolseley. We look forward to it. Many thanks again!",
+      "at": "2026-11-22 15:15:44",
+      "voice": false
+    }
+  ]
+}

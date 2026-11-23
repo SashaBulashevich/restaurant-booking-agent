@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.session
+*.session-journal
+logs/console/
+logs/tmp/
+.pytest_cache/
+logs/decision_log.*
+logs/conversation_state.json
+logs/bot_meta.json
+logs/archive/
