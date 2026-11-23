@@ -151,10 +151,15 @@ Answer only JSON: {{"ok": true/false, "unsupported": ["short description of each
 class Brain:
     def __init__(self, cfg: Config, client=None):
         self.cfg = cfg
-        if client is None:
+        self._client = client
+
+    @property
+    def client(self):
+        """Клієнт Groq створюється при першому виклику моделі (тести й самоперевірка обходяться без ключа)."""
+        if self._client is None:
             from groq import Groq
-            client = Groq(api_key=cfg.groq_api_key, timeout=30, max_retries=1)
-        self.client = client
+            self._client = Groq(api_key=self.cfg.groq_api_key, timeout=30, max_retries=1)
+        return self._client
 
     def _messages(self, conv: Conversation, opening: bool, now_local: str) -> list[dict]:
         system = SYSTEM_PROMPT.format(
